@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./",
+    "target": "es2016",                                  
+    "module": "commonjs",                                
+    "esModuleInterop": true,                            
+    "forceConsistentCasingInFileNames": true,            
+    "skipLibCheck": true                                
+  },
+  "code-runner.executorMap": {
+    "typescript": "cd $dir && tsc $fileName && node $dir/$fileNameWithoutExt.js"
+  }
+}

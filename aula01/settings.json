@@ -1,0 +1,9 @@
+{
+    "code-runner.executorMap": {
+      "typescript": "tsc --outDir ./dist $fileName && node ./dist/$fileNameWithoutExt.js"
+    },
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.showExecutionMessage": true,
+    "code-runner.runInTerminal": true
+  }
+  
